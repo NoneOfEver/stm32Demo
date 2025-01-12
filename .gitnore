@@ -1,0 +1,4 @@
+# 忽略SEGGER文件夹
+SEGGER/
+# 忽略build文件夹
+build/
