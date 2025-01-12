@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32H743xx"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "gnu++17"
+        }
+    ],
+    "version": 4
+}
