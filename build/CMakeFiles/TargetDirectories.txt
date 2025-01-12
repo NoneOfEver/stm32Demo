@@ -1,3 +1,0 @@
-F:/stm32/stm32Demo/build/CMakeFiles/stm32Demo.elf.dir
-F:/stm32/stm32Demo/build/CMakeFiles/edit_cache.dir
-F:/stm32/stm32Demo/build/CMakeFiles/rebuild_cache.dir
