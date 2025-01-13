@@ -45,10 +45,10 @@ Middlewares
 # windows下使用命令行(cmd)或powershell时,替换注释的内容.
 
 # for unix/linux/macOS or Msys2/MinGW bash:
-#ALL_DIRS := $(foreach dire, $(PROJ_DIR), $(shell find $(dire) -maxdepth 10 -type d))
+ALL_DIRS := $(foreach dire, $(PROJ_DIR), $(shell find $(dire) -maxdepth 10 -type d))
 #for windows cmd/pwsh:
-SHELL = cmd
-ALL_DIRS := $(foreach dire, $(PROJ_DIR), $(shell dir $(dire) /s /b /a:d))
+# SHELL = cmd
+# ALL_DIRS := $(foreach dire, $(PROJ_DIR), $(shell dir $(dire) /s /b /a:d))
 ALL_DIRS += $(PROJ_DIR)
 
 C_SOURCES := $(foreach dire, $(ALL_DIRS), $(wildcard $(dire)/*.c))
@@ -181,7 +181,7 @@ $(BUILD_DIR):
 # clean up
 #######################################
 clean:
-	rd $(BUILD_DIR) /s/q
+	rm -rf $(BUILD_DIR)
   
   
 #######################################
