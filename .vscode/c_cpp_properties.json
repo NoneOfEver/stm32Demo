@@ -14,7 +14,8 @@
                 "STM32H743xx"
             ],
             "cStandard": "c11",
-            "cppStandard": "gnu++17"
+            "cppStandard": "gnu++17",
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc"
         }
     ],
     "version": 4

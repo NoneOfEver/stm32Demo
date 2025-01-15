@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "freertos.h": "c",
-        "portable.h": "c"
+        "portable.h": "c",
+        "memory.h": "c",
+        "bsp_uart.h": "c"
     }
 }
