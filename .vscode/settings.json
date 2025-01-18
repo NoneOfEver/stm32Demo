@@ -3,6 +3,7 @@
         "freertos.h": "c",
         "portable.h": "c",
         "memory.h": "c",
-        "bsp_uart.h": "c"
+        "bsp_uart.h": "c",
+        "stdlib.h": "c"
     }
 }
